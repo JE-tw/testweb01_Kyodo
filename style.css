@@ -58,3 +58,48 @@ nav ul li a:hover {
 .active {
   color: bisque;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main p {
+  padding: 1rem;
+  width: 80%;
+}
+
+main hr {
+  width: 80%;
+}
+
+main section.left {
+  flex: 1 1 300px;
+}
+main section.left img {
+  width: 100%;
+}
+main section.right {
+  padding: 1rem;
+  flex: 4 1 500px;
+  height: 800px;
+  background-image: url(./images/bg_text.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+div.main_information {
+}
+main section.right h3.title {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1rem;
+}
+main section.right h4 {
+  font-size: 1.2rem;
+  font-style: italic;
+  padding-top: 1rem;
+}
+main section.right div.term_detal {
+  padding: 1rem;
+}
